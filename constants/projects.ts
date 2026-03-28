@@ -25,7 +25,7 @@ export const projects: Project[] = [
       "Health recommendation engine",
       "Historical data analysis dashboard"
     ],
-    image: "https://via.placeholder.com/600x400/0a0a0a/00ffff?text=Tempo+Air",
+    image: "/nasa.png",
     liveUrl: "#",
     sourceUrl: "#",
     achievement: "3rd Place - NASA Space Apps"
