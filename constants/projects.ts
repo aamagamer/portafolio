@@ -43,7 +43,7 @@ export const projects: Project[] = [
       "Document management system",
       "Multi-language support"
     ],
-    image: "public/DifSaltillo.png",
+    image: "/DifSaltillo.png",
     liveUrl: "https://difsaltillo.vercel.app/",
     achievement: "Government Platform"
   },
