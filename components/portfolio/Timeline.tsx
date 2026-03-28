@@ -6,7 +6,7 @@ import { Briefcase, Building, Users } from "lucide-react";
 
 const iconMap = {
   "Sole IT Owner": Briefcase,
-  "Head of IT": Building,
+  "Tech Lead": Building,
   "President": Users,
 };
 

@@ -43,8 +43,8 @@ export const projects: Project[] = [
       "Document management system",
       "Multi-language support"
     ],
-    image: "https://via.placeholder.com/600x400/0a0a0a/00ffff?text=DIF+Saltillo",
-    liveUrl: "#",
+    image: "public/DifSaltillo.png",
+    liveUrl: "https://difsaltillo.vercel.app/",
     achievement: "Government Platform"
   },
   {
@@ -130,19 +130,22 @@ export const skills: Skill[] = [
   { name: "React / Next.js", level: 95, category: "frontend" },
   { name: "TypeScript", level: 90, category: "frontend" },
   { name: "Tailwind CSS", level: 92, category: "frontend" },
-  { name: "Framer Motion", level: 85, category: "frontend" },
+  { name: "Bootstrap", level: 85, category: "frontend" },
+  { name: "JavaFx", level: 80, category: "frontend" },
   
   // Backend
   { name: "Python / FastAPI", level: 88, category: "backend" },
   { name: "Node.js / Express", level: 85, category: "backend" },
+  { name: "Java", level: 80, category: "backend" },
   { name: "PostgreSQL", level: 82, category: "backend" },
   { name: "Docker / AWS", level: 78, category: "backend" },
   
   // Tools
   { name: "Git / GitHub", level: 90, category: "tools" },
   { name: "Linux / Bash", level: 80, category: "tools" },
-  { name: "Figma", level: 75, category: "tools" },
-  { name: "CI/CD Pipelines", level: 78, category: "tools" },
+  { name: "Figma", level: 85, category: "tools" },
+  { name: "CI/CD Pipelines", level: 75, category: "tools" },
+  { name: "Vercel", level: 90, category: "tools" },
 ];
 
 export interface Experience {
@@ -161,13 +164,14 @@ export const experiences: Experience[] = [
     description: "Leading all technology initiatives for a logistics company, from infrastructure to software development.",
     highlights: [
       "Built complete ERP system from scratch",
+      "Develop and train an AI application to detect asleep drivers at the wheel",
       "Automated 80% of HR processes",
       "Implemented real-time fleet tracking",
       "Reduced operational costs by 35%"
     ]
   },
   {
-    title: "Head of IT",
+    title: "Tech Lead",
     company: "ADM Asesoría",
     period: "2022 - 2023",
     description: "Managed IT infrastructure and led digital transformation initiatives.",
