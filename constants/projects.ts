@@ -35,13 +35,14 @@ export const projects: Project[] = [
     title: "DIF Saltillo",
     shortDescription: "Official government web platform focused on accessibility and citizen services.",
     longDescription: "Developed the official digital platform for DIF Saltillo, a government institution serving the community. The platform was built with a strong emphasis on accessibility (WCAG compliance) to ensure all citizens, including those with disabilities, can access essential services. Features a robust Flask backend with secure data handling and administrative tools.",
-    techStack: ["Python", "Flask", "PostgreSQL", "JavaScript", "Bootstrap", "Redis"],
+    techStack: ["HTML5", "CSS", "Vercel", "JavaScript", "Bootstrap", "Tailwind CSS"],
     features: [
       "WCAG 2.1 accessibility compliance",
       "Citizen services portal",
       "Administrative dashboard",
       "Document management system",
-      "Multi-language support"
+      "Multi-language support",
+      "Responsive design for all devices"
     ],
     image: "/DifSaltillo.png",
     liveUrl: "https://difsaltillo.vercel.app/",
@@ -51,8 +52,8 @@ export const projects: Project[] = [
     id: "knq-transporte",
     title: "KNQ Transporte",
     shortDescription: "Full ERP system for logistics company - HR automation, fleet tracking, and operations management.",
-    longDescription: "Comprehensive Enterprise Resource Planning (ERP) system built from the ground up for KNQ Transporte. As the sole IT owner, designed and implemented a complete digital transformation solution covering HR processes, fleet management, real-time GPS tracking, fuel consumption analytics, and automated payroll systems. The system handles 50+ daily operations and has significantly reduced manual paperwork.",
-    techStack: ["Next.js", "TypeScript", "Node.js", "PostgreSQL", "Redis", "AWS", "Docker"],
+    longDescription: "Comprehensive Enterprise Resource Planning (ERP) system built from the ground up for KNQ Transporte. As the sole IT owner, designed and implemented a complete digital transformation solution covering HR processes, fleet management, real-time GPS tracking, fuel consumption analytics, and automated payroll systems. The system handles 50+ daily operations and has significantly reduced manual paperwork, also i made an application that uses AI to detect drivers who are asleep at the wheel, improving safety and reducing accidents, ",
+    techStack: ["Next.js", "TypeScript", "Node.js", "PostgreSQL", "PHP", "AWS", "Docker", "XAMPP" ,"MariaDB"],
     features: [
       "Real-time GPS fleet tracking",
       "Automated HR & payroll system",
@@ -61,8 +62,8 @@ export const projects: Project[] = [
       "Driver performance dashboards",
       "Maintenance scheduling system"
     ],
-    image: "https://via.placeholder.com/600x400/0a0a0a/00ffff?text=KNQ+ERP",
-    liveUrl: "#",
+    image: "/knqweb.png",
+    liveUrl: "https://pagina-web-sand-sigma.vercel.app/",
     achievement: "Full ERP System"
   },
   {
