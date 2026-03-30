@@ -25,7 +25,7 @@ export const projects: Project[] = [
       "Health recommendation engine",
       "Historical data analysis dashboard"
     ],
-    image: "https://via.placeholder.com/600x400/0a0a0a/00ffff?text=Tempo+Air",
+    image: "/images/projects/tempo-air.jpg",
     liveUrl: "#",
     sourceUrl: "#",
     achievement: "3rd Place - NASA Space Apps"
@@ -43,7 +43,7 @@ export const projects: Project[] = [
       "Document management system",
       "Multi-language support"
     ],
-    image: "https://via.placeholder.com/600x400/0a0a0a/00ffff?text=DIF+Saltillo",
+    image: "/images/projects/dif-saltillo.jpg",
     liveUrl: "#",
     achievement: "Government Platform"
   },
@@ -61,7 +61,7 @@ export const projects: Project[] = [
       "Driver performance dashboards",
       "Maintenance scheduling system"
     ],
-    image: "https://via.placeholder.com/600x400/0a0a0a/00ffff?text=KNQ+ERP",
+    image: "/images/projects/knq-erp.jpg",
     liveUrl: "#",
     achievement: "Full ERP System"
   },
@@ -79,7 +79,7 @@ export const projects: Project[] = [
       "Document digitalization system",
       "Performance review automation"
     ],
-    image: "https://via.placeholder.com/600x400/0a0a0a/00ffff?text=ADM+Asesoria",
+    image: "/images/projects/adm-asesoria.jpg",
     liveUrl: "#",
     achievement: "Head of IT Project"
   },
@@ -96,7 +96,7 @@ export const projects: Project[] = [
       "Real-time metrics dashboard",
       "Custom report generation"
     ],
-    image: "https://via.placeholder.com/600x400/0a0a0a/00ffff?text=Mexathon+AI",
+    image: "/images/projects/mexathon-ai.jpg",
     sourceUrl: "#",
     achievement: "Google Vertex AI"
   },
@@ -113,7 +113,7 @@ export const projects: Project[] = [
       "Risk assessment algorithms",
       "Automated trading signals"
     ],
-    image: "https://via.placeholder.com/600x400/0a0a0a/00ffff?text=HackMTY+Finance",
+    image: "/images/projects/hackmty-finance.jpg",
     sourceUrl: "#",
     achievement: "Top 8 - HackMTY"
   }
