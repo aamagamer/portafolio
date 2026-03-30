@@ -52,7 +52,7 @@ export const projects: Project[] = [
     id: "knq-transporte",
     title: "KNQ Transporte",
     shortDescription: "Full ERP system for logistics company - HR automation, fleet tracking, and operations management.",
-    longDescription: "Comprehensive Enterprise Resource Planning (ERP) system built from the ground up for KNQ Transporte. As the sole IT owner, designed and implemented a complete digital transformation solution covering HR processes, fleet management, real-time GPS tracking, fuel consumption analytics, and automated payroll systems. The system handles 50+ daily operations and has significantly reduced manual paperwork, also i made an application that uses AI to detect drivers who are asleep at the wheel, improving safety and reducing accidents, ",
+    longDescription: "Comprehensive Enterprise Resource Planning (ERP) system built from the ground up for KNQ Transporte. As the sole IT owner, designed and implemented a complete digital transformation solution covering HR processes, fleet management, real-time GPS tracking, fuel consumption analytics, and automated payroll systems. The system handles 50+ daily operations and has significantly reduced manual paperwork, also i made the corporative website.",
     techStack: ["Next.js", "TypeScript", "Node.js", "PostgreSQL", "PHP", "AWS", "Docker", "XAMPP" ,"MariaDB"],
     features: [
       "Real-time GPS fleet tracking",
@@ -69,9 +69,9 @@ export const projects: Project[] = [
   {
     id: "adm-asesoria",
     title: "ADM Asesoría",
-    shortDescription: "Corporate website & HR system with FortiGate integration and process digitalization.",
+    shortDescription: "Corporate website & HR system with process digitalization.",
     longDescription: "Led the complete IT infrastructure overhaul for ADM Asesoría as Head of IT. Developed a corporate website, implemented an HR management system, and integrated FortiGate security appliances for network protection. The project involved digitizing paper-based processes, resulting in a 60% reduction in administrative overhead.",
-    techStack: ["React", "Node.js", "Express", "MongoDB", "FortiGate", "Azure"],
+    techStack: ["HTML5", "CSS", "Javascript", "SQLServer", "FortiGate", "Cpanel"],
     features: [
       "Corporate web presence",
       "Employee self-service portal",
@@ -80,8 +80,8 @@ export const projects: Project[] = [
       "Document digitalization system",
       "Performance review automation"
     ],
-    image: "https://via.placeholder.com/600x400/0a0a0a/00ffff?text=ADM+Asesoria",
-    liveUrl: "#",
+    image: "/adm.png",
+    liveUrl: "https://adm.com.mx",
     achievement: "Head of IT Project"
   },
   {
@@ -97,8 +97,8 @@ export const projects: Project[] = [
       "Real-time metrics dashboard",
       "Custom report generation"
     ],
-    image: "https://via.placeholder.com/600x400/0a0a0a/00ffff?text=Mexathon+AI",
-    sourceUrl: "#",
+    image: "/cdmx.png",
+    sourceUrl: "/cdmx.pdf",
     achievement: "Google Vertex AI"
   },
   {
@@ -114,7 +114,7 @@ export const projects: Project[] = [
       "Risk assessment algorithms",
       "Automated trading signals"
     ],
-    image: "https://via.placeholder.com/600x400/0a0a0a/00ffff?text=HackMTY+Finance",
+    image: "/hackmty.png",
     sourceUrl: "#",
     achievement: "Top 8 - HackMTY"
   }
@@ -136,10 +136,10 @@ export const skills: Skill[] = [
   
   // Backend
   { name: "Python / FastAPI", level: 88, category: "backend" },
-  { name: "Node.js / Express", level: 85, category: "backend" },
+  { name: "Node.js", level: 85, category: "backend" },
   { name: "Java", level: 80, category: "backend" },
   { name: "PostgreSQL", level: 82, category: "backend" },
-  { name: "Docker / AWS", level: 78, category: "backend" },
+  { name: "Docker / AWS", level: 75, category: "backend" },
   
   // Tools
   { name: "Git / GitHub", level: 90, category: "tools" },
@@ -190,7 +190,7 @@ export const experiences: Experience[] = [
     description: "Led the student chapter, organizing tech events and fostering community growth.",
     highlights: [
       "Organized 10+ technical workshops",
-      "Grew membership by 150%",
+      "Lead university projects",
       "Established industry partnerships",
       "Mentored junior students"
     ]
@@ -207,6 +207,6 @@ export interface Achievement {
 export const achievements: Achievement[] = [
   { title: "3rd Place", event: "NASA Space Apps Challenge", icon: "trophy", year: "2024" },
   { title: "Top 8", event: "HackMTY", icon: "medal", year: "2024" },
-  { title: "Participant", event: "Mexathon x Google", icon: "star", year: "2024" },
-  { title: "Chapter President", event: "IEEE CS Student Chapter", icon: "award", year: "2023" },
+  { title: "2nd Place", event: "Mexathon x Google", icon: "star", year: "2024" },
+  { title: "Participant", event: "Ethereum México", icon: "award", year: "2024" },
 ];

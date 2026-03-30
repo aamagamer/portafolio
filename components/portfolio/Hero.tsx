@@ -132,7 +132,7 @@ export function Hero() {
             className="mt-8 flex items-center justify-center gap-6"
           >
             <a
-              href="https://github.com"
+              href="https://github.com/aamagamer"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#888] transition-colors hover:text-[#00ffff]"
@@ -141,7 +141,7 @@ export function Hero() {
               <Github className="h-5 w-5" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/aama010803/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#888] transition-colors hover:text-[#00ffff]"
@@ -150,7 +150,7 @@ export function Hero() {
               <Linkedin className="h-5 w-5" />
             </a>
             <a
-              href="mailto:contact@example.com"
+              href="mailto:aama0108003@outlook.com"
               className="text-[#888] transition-colors hover:text-[#00ffff]"
               aria-label="Send Email"
             >

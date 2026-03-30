@@ -62,20 +62,20 @@ export function Contact() {
               {/* Contact Info */}
               <div className="grid gap-4 pl-4 md:grid-cols-2">
                 <a
-                  href="mailto:contact@angelmorales.dev"
+                  href="mailto:aama010803@outlook.com"
                   className="group flex items-center gap-3 rounded-lg border border-[#1a1a2e] bg-[#0a0a0a] p-4 transition-all hover:border-[#00ffff]/30 hover:bg-[#00ffff]/5"
                 >
                   <Mail className="h-5 w-5 text-[#888] transition-colors group-hover:text-[#00ffff]" />
                   <div>
                     <div className="text-xs text-[#888]">EMAIL</div>
                     <div className="text-[#e0e0e0] transition-colors group-hover:text-[#00ffff]">
-                      contact@angelmorales.dev
+                      aama010803@outlook.com
                     </div>
                   </div>
                 </a>
 
                 <a
-                  href="https://github.com"
+                  href="https://github.com/aamagamer"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group flex items-center gap-3 rounded-lg border border-[#1a1a2e] bg-[#0a0a0a] p-4 transition-all hover:border-[#00ffff]/30 hover:bg-[#00ffff]/5"
@@ -84,13 +84,13 @@ export function Contact() {
                   <div>
                     <div className="text-xs text-[#888]">GITHUB</div>
                     <div className="text-[#e0e0e0] transition-colors group-hover:text-[#00ffff]">
-                      @angelmorales
+                      @aamagod
                     </div>
                   </div>
                 </a>
 
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/aama010803/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group flex items-center gap-3 rounded-lg border border-[#1a1a2e] bg-[#0a0a0a] p-4 transition-all hover:border-[#00ffff]/30 hover:bg-[#00ffff]/5"

@@ -157,7 +157,7 @@ export function Achievements() {
                 <p className="font-mono text-sm text-[#888]">
                   Led the student chapter, organized technical workshops, mentored
                   fellow students, and established partnerships with industry
-                  leaders. Grew membership by 150% during tenure.
+                  leaders.
                 </p>
               </div>
 
