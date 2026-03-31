@@ -17,7 +17,7 @@ export const projects: Project[] = [
     title: "Tempo Air",
     shortDescription: "NASA Space Apps Challenge 3rd Place Winner - Air quality monitoring platform with AI-powered predictions.",
     longDescription: "Tempo Air is an innovative air quality monitoring system developed during the NASA Space Apps Challenge. The platform leverages real-time satellite data and AI algorithms to predict air quality patterns, helping communities make informed decisions about outdoor activities and health precautions. Built with a focus on accessibility and real-time data visualization.",
-    techStack: ["Python", "FastAPI", "React", "TensorFlow", "NASA APIs", "PostgreSQL"],
+    techStack: ["Python", "FastAPI", "React", "TensorFlow", "NASA APIs", "SQLServer"],
     features: [
       "Real-time air quality index monitoring",
       "AI-powered 24-hour predictions",
@@ -26,7 +26,7 @@ export const projects: Project[] = [
       "Historical data analysis dashboard"
     ],
     image: "/nasa.png",
-    liveUrl: "#",
+    liveUrl: "/nasa.html",
     sourceUrl: "#",
     achievement: "3rd Place - NASA Space Apps"
   },
@@ -53,7 +53,7 @@ export const projects: Project[] = [
     title: "KNQ Transporte",
     shortDescription: "Full ERP system for logistics company - HR automation, fleet tracking, and operations management.",
     longDescription: "Comprehensive Enterprise Resource Planning (ERP) system built from the ground up for KNQ Transporte. As the sole IT owner, designed and implemented a complete digital transformation solution covering HR processes, fleet management, real-time GPS tracking, fuel consumption analytics, and automated payroll systems. The system handles 50+ daily operations and has significantly reduced manual paperwork, also i made the corporative website.",
-    techStack: ["Next.js", "TypeScript", "Node.js", "PostgreSQL", "PHP", "AWS", "Docker", "XAMPP" ,"MariaDB"],
+    techStack: ["Next.js", "TypeScript", "Node.js", "SQLServer", "PHP", "AWS", "Docker", "XAMPP" ,"MariaDB"],
     features: [
       "Real-time GPS fleet tracking",
       "Automated HR & payroll system",
@@ -106,7 +106,7 @@ export const projects: Project[] = [
     title: "HackMTY",
     shortDescription: "Top 8 Finalist - AI Financial Analysis tool for intelligent investment insights.",
     longDescription: "Built an AI-powered financial analysis platform that earned a Top 8 position at HackMTY. The tool analyzes market trends, company financials, and news sentiment to provide comprehensive investment recommendations. Features include portfolio optimization, risk assessment, and automated trading signals.",
-    techStack: ["Python", "TensorFlow", "React", "FastAPI", "PostgreSQL", "Alpha Vantage API"],
+    techStack: ["Python", "TensorFlow", "React", "FastAPI", "SQLServer", "Alpha Vantage API"],
     features: [
       "Real-time market analysis",
       "Sentiment analysis engine",
@@ -115,7 +115,7 @@ export const projects: Project[] = [
       "Automated trading signals"
     ],
     image: "/hackmty.png",
-    sourceUrl: "#",
+    sourceUrl: "/hackmty.pdf",
     achievement: "Top 8 - HackMTY"
   }
 ];

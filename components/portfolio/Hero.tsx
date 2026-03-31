@@ -54,7 +54,7 @@ export function Hero() {
             <div className="mt-2 space-y-1 font-mono text-xs">
               <div className="text-[#e0e0e0]">PROJECTS: 15+</div>
               <div className="text-[#e0e0e0]">HACKATHONS: 5</div>
-              <div className="text-[#e0e0e0]">AWARDS: 3</div>
+              <div className="text-[#e0e0e0]">AWARDS: 5</div>
             </div>
           </motion.div>
         </div>
